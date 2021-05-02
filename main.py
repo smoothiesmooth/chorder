@@ -14,12 +14,12 @@ currentTuning = tuningList[dataList[0]]
 chordList = dataList[1]
 
 
-tabString1 = currentTuning[0] + " " + "-"*118
-tabString2 = currentTuning[1] + " " + "-"*118
-tabString3 = currentTuning[2] + " " + "-"*118
-tabString4 = currentTuning[3] + " " + "-"*118
-tabString5 = currentTuning[4] + " " + "-"*118
-tabString6 = currentTuning[5] + " " + "-"*118
+tabString1 = currentTuning[0] + " " + "-"*len(chordList)*2
+tabString2 = currentTuning[1] + " " + "-"*len(chordList)*2
+tabString3 = currentTuning[2] + " " + "-"*len(chordList)*2
+tabString4 = currentTuning[3] + " " + "-"*len(chordList)*2
+tabString5 = currentTuning[4] + " " + "-"*len(chordList)*2
+tabString6 = currentTuning[5] + " " + "-"*len(chordList)*2
 
 tab = ''''''
 
