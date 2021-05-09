@@ -15,12 +15,12 @@ chordList = dataList[1]
 
 rows, columns = os.popen('stty size', 'r').read().split()
 
-tabString1 = currentTuning[0] + " " + "-"*(int(columns)-2)
-tabString2 = currentTuning[1] + " " + "-"*(int(columns)-2)
-tabString3 = currentTuning[2] + " " + "-"*(int(columns)-2)
-tabString4 = currentTuning[3] + " " + "-"*(int(columns)-2)
-tabString5 = currentTuning[4] + " " + "-"*(int(columns)-2)
-tabString6 = currentTuning[5] + " " + "-"*(int(columns)-2)
+tabString1 = currentTuning[0] + " " + "-"*len(chordList)*2
+tabString2 = currentTuning[1] + " " + "-"*len(chordList)*2
+tabString3 = currentTuning[2] + " " + "-"*len(chordList)*2
+tabString4 = currentTuning[3] + " " + "-"*len(chordList)*2
+tabString5 = currentTuning[4] + " " + "-"*len(chordList)*2
+tabString6 = currentTuning[5] + " " + "-"*len(chordList)*2
 
 tab = ''''''
 
